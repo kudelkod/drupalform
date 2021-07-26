@@ -1,0 +1,15 @@
+drupal_form.settings:
+  path: '/form-page'
+  defaults:
+    _form: '\Drupal\drupalform\Form\FormPage'
+    _title: 'Form Page'
+  requirements:
+    _permission: 'access content'
+
+drupal_form.admin_settings:
+  path: '/admin/config/drupalform'
+  defaults:
+    _form: '\Drupal\drupalform\Form\FormPageSettings'
+    _title: 'Settings for CollectPhone form.'
+  requirements:
+    _permission: 'administer site configuration'

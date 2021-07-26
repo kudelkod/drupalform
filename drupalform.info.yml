@@ -1,0 +1,6 @@
+name: DrupalForm
+description: Custom module for Drupal 8
+type: module
+core: 8.x
+package: DrupalForm
+configure: drupal_form.admin_settings
